@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "chinesefoods",
+	"version": "${version}",
+	"name": "Chinese Foods",
+	"description": "有许多中国菜。",
+	"authors": [
+		"小矾同学"
+	],
+	"contact": {
+		"homepage": "https://shidux.cn/",
+		"sources": "https://github.com/alumr/ChineseFoods"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/chinesefoods/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cn.shidux.chinesefoods.ChineseFoods"
+		],
+		"client": [
+			"cn.shidux.chinesefoods.ChineseFoodsClient"
+		],
+		"fabric-datagen": [
+			"cn.shidux.chinesefoods.ChineseFoodsDataGenerator"
+		]
+	},
+	"mixins": [
+		"chinesefoods.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
