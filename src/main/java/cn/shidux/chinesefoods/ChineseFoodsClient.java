@@ -9,5 +9,6 @@ public class ChineseFoodsClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MUNGBEAN_CROP, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RUTABAGA_CROP, RenderLayer.getCutout());
     }
 }

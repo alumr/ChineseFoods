@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "item": "chinesefoods:rutabaga"
+    }
+  },
+  "result": {
+    "item": "chinesefoods:salted_vegetable",
+    "count": 5
+  }
+}

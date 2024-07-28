@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "chinesefoods:item/salted_vegetable"
+    "layer0": "chinesefoods:item/rutabaga"
   }
 }

@@ -16,6 +16,10 @@ public class ModBlocks {
             new Identifier(ChineseFoods.MOD_ID, "mungbean_crop"),
             new MungBeanCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
+    public static final Block RUTABAGA_CROP = Registry.register(Registries.BLOCK,
+            new Identifier(ChineseFoods.MOD_ID, "rutabaga_crop"),
+            new RutabagaCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ChineseFoods.MOD_ID, name), block);

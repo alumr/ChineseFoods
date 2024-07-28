@@ -19,8 +19,10 @@ public class ModItemGroups {
                         entries.add(ModItems.SALTED_VEGETABLE);
 
                         entries.add(ModItems.MUNG_BEANS);
+                        entries.add(ModItems.RUTABAGA);
 
                         entries.add(ModItems.MUNGBEAN_SEEDS);
+                        entries.add(ModItems.RUTABAGA_SEEDS);
                     }).build());
     public static void registerItemGroups() {
         ChineseFoods.LOGGER.info("Registering Item Groups for " + ChineseFoods.MOD_ID);

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "chinesefoods:block/rutabaga_crop_stage3"
+  }
+}
